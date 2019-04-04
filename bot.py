@@ -2,9 +2,7 @@ from config import token
 import logging
 logging.basicConfig(level=logging.DEBUG,
                     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-
-# token = '669456408:AAHQ76m6oQ9ei4MiybC6Y2zSG5_9rRZpOaE'
-
+                    
 from telegram.ext import Updater, InlineQueryHandler, CommandHandler, MessageHandler, Filters
 import requests
 import re

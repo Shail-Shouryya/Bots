@@ -1,4 +1,3 @@
-token = '669456408:AAHQ76m6oQ9ei4MiybC6Y2zSG5_9rRZpOaE'
 import logging
 logging.basicConfig(level=logging.DEBUG,
                     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
